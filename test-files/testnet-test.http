@@ -1,0 +1,11 @@
+GET http://localhost:8080/api/all
+Accept: application/json
+
+###
+# Get all NFT assets from an owner
+#
+# curl --request GET
+#     --url 'https://deep-index.moralis.io/api/v2/nft/search?q=APE'
+GET https://deep-index.moralis.io/api/v2/nft/search?q=APE
+Accept: application/json
+X-API-KEY: {{TESTNET_API_TOKEN}}
