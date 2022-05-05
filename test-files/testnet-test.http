@@ -8,4 +8,4 @@ Accept: application/json
 #     --url 'https://deep-index.moralis.io/api/v2/nft/search?q=APE'
 GET https://deep-index.moralis.io/api/v2/nft/search?q=APE
 Accept: application/json
-X-API-KEY: {{TESTNET_API_TOKEN}}
+X-API-KEY: {{API_KEY}}
