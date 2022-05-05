@@ -12,10 +12,11 @@ import (
 	"context"
 	"fmt"
 	"io/ioutil"
-	"moralis-go-client/models"
 	"net/http"
 	"net/url"
 	"strings"
+
+	"github.com/DevilsTear/moralis-go-client/models"
 
 	"github.com/antihax/optional"
 )

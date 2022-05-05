@@ -8,5 +8,5 @@ push:
 	@echo " - Tagging"
 	@git tag v${VERSION}
 	@echo " - Pushing"
-	@git push --tags origin ${BRANCH}makefile
+	@git push --tags origin ${BRANCH}
 	

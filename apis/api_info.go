@@ -11,10 +11,11 @@ package moralisAPI
 import (
 	"context"
 	"io/ioutil"
-	"moralis-go-client/models"
 	"net/http"
 	"net/url"
 	"strings"
+
+	"github.com/DevilsTear/moralis-go-client/models"
 )
 
 // Linger please

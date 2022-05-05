@@ -1,4 +1,4 @@
-module moralis-go-client
+module github.com/DevilsTear/moralis-go-client
 
 go 1.18
 
