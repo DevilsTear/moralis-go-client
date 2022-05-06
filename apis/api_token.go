@@ -2080,14 +2080,14 @@ Gets NFTs that match a given metadata search.
 */
 
 type TokenApiSearchNFTsOpts struct {
-	Chain     optional.Interface
+	Chain     optional.String
 	Format    optional.String
 	Filter    optional.String
 	FromBlock optional.Int32
 	ToBlock   optional.Int32
 	FromDate  optional.String
 	ToDate    optional.String
-	Addresses optional.Interface
+	Addresses optional.String
 	Cursor    optional.String
 	Limit     optional.Int32
 }
